@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "BIDMC Public Screensaver",
+  "description": "This extension makes a blank tab using a black background for Public Sessions",
+  "version": "1.0.6",
+
+  "author": "Robert Hurst <rhurst@bidmc.harvard.edu>",
+  "icons": {
+    "128": "screensaver-icon.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "idle",
+    "alarms"
+  ]
+}
